@@ -31,3 +31,16 @@ Most people who took the survey are on the younger side, meaning they are famili
 
 **Team Action (if any):**  
 Make it be catered to younger people, with a focus on ratings and reviews. Also implement subtle AI-driven suggestions and allow for basic social media aspects like looking at profiles & sharing lists, with potentially messaging if time allows
+
+---
+
+## Observation 3: Nate
+**Observation Statement:**
+Many users have previous experience searching for and looking at reviews through other services.
+
+**Supporting Data:**
+- 81.5% at least sometimes look at reviews before watching shows/movies.
+- High concentration of people using IMDb, YouTube, and social media for reviews.
+
+**Team Action (if any)**
+Ensure that the review feature is robust and feels familiar to other review mediums that already exist while still being distinct.
