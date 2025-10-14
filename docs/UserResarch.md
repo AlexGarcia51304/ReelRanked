@@ -2,7 +2,7 @@
 
 ---
 
-## Observation 1:
+## Observation 1: Jordan
 **Observation Statement:**
 Most of the users are between the ages of 16-29, which means our target consumers are on the younger side. With this it will likely be easier
 for them to make navigate and use the app
