@@ -3,6 +3,7 @@
 ---
 
 ## Observation 1: Jordan
+
 **Observation Statement:**
 Most of the users are between the ages of 16-29, which means our target consumers are on the younger side. With this it will likely be easier
 for them to make navigate and use the app
@@ -12,7 +13,7 @@ for them to make navigate and use the app
 - 59.3% identified as College Students
 
 **Team Action (if any):**
-- Make a U/I design that would further influence and attract younger people like a "social-media-like" app
+Make a U/I design that would further influence and attract younger people like a "social-media-like" app
 
 ---
 
