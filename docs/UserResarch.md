@@ -10,3 +10,7 @@ for them to make navigate and use the app
 **Team Action (if any):**
 - Make a U/I design that would further influence and attract younger people like a "social-media-like" app
 ---
+Observation 4:
+  Observation: Users don't care as much about AI implementation as expected
+  Source: 44% of users said they were only "somewhat interested" in AI implementation in the app
+  Team action: Don't go overboard on AI implementation, possibly add a feature that disables AI for users who don't want it
