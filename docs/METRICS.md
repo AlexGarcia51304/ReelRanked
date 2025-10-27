@@ -8,5 +8,7 @@
 - Retention Rate (Number of returning users) -- User Retention
   - Retention measures the number of users who return to the app within a specified period. It reflects how well ReelRanker keeps existing users entertained and engaged.
   - Currently, all of the users who entered the app have not returned. Day 0 shows 100% of users were on the app, meaning that all of us developing the app had entered. The following       days show 0% retention rate. This means that none of the users who made an account have come back. Once the app is completed and if it is being used by the public, the retention        rate should be higher than 0%, and using it can determine if people like using the app, and maybe how we can improve that. To improve retention once the app is launched, we can add     features such as customizable tabs where users can track and manage their recently watched titles, favorites, and to-watch lists.
-- Engagement -- Firebase Analytics
-  - The metrics will show the engagement and active users there are. You can see overall, over time, and users by the version of the app within a time frame. From here we can see A/B tests and get an overview of the progress within the app's metrics.
+
+- Task Success (how successful the app is) -- Task Success
+- Task success measures how easily users can navigate and use the app. It reflects the overall experience when using Reelranker.
+- This can be measured by seeing the number of users who contribute to the app via monetary donations. Currently, as the app is unpublished, no one has offered any money to contribute. This could be improved by making user-requested changes to navigation and account/review creation.
