@@ -1,5 +1,4 @@
-## A/B Test #1: 
-**Post Button Placement – Nav Bar vs. Profile Page**
+## A/B Test #1: **Post Button Placement – Nav Bar vs. Profile Page**
 
 **User Story Number**
 - US4 – Golden Path
