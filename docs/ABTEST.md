@@ -33,33 +33,30 @@ We’ll track the results using Firebase Analytics and the metrics listed above.
 - Takes an extra step to reach but keeps the main screen cleaner.  
 After the test, we’ll review which version performs better and use that layout in the final app.
 
+---
+
 ***A/B Test #2***
 **Display Name Color**
 
 **User Story Number**
 - US3: Profile Creation
 
-## 🧩 Metrics
+### Metrics
 **HEART Metric:** Engagement  
 We will measure engagement by tracking how long users spend on their profile page and the number of times users interact with profile-related elements (e.g., likes, edits, or clicks).  
 
----
 
-## 💡 Hypothesis
+### Hypothesis
 Changing the display name color to a more visually appealing color (e.g., blue) will make the profile page more engaging and encourage users to spend more time viewing or interacting with it.  
 
----
-
-## ❓ What Problem Are We Trying to Solve?
+## What Problem Are We Trying to Solve?
 Some users may find the current profile page visually bland or unengaging. This could reduce how long they stay on the app or interact with profile content.  
 By testing a color change for the display name, we aim to determine whether small UI design adjustments can increase user engagement and satisfaction.  
 
 **Impact:**  
 Improving engagement through better visual appeal can increase user satisfaction and retention over time.
 
----
-
-## 🔬 Experiment
+### Experiment
 We will use **Firebase Remote Config** and **Firebase Analytics** to perform this A/B test.
 
 - **Audience:** 50% of users (randomly assigned) will see the control version, and 50% will see the test version.  
@@ -72,9 +69,7 @@ We will use **Firebase Remote Config** and **Firebase Analytics** to perform thi
 
 Data will be analyzed after 1–2 weeks to determine which version performs better under the HEART “Engagement” metric.
 
----
-
-## 🎨 Variations
+### Variations
 **Variation A (Control):**
 - Display name color: **Black (#000000)**  
 
