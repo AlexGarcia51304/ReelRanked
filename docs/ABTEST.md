@@ -18,6 +18,7 @@
 - Right now, if the “Create Post” button is only on the profile page, users might not notice it or take the extra step to post. This could make the app feel less interactive. By testing both placements, we can find which version helps users post more easily and increases the overall activity on ReelRanker.
 
 **Experiment Setup**
+
 We’ll use Firebase Remote Config and Firebase A/B Testing to test two versions of the ReelRanker app.
 - *Group A (50% of users):* “Create Post” button is in the **navigation bar**, next to Feed, Search, and Profile.  
 - *Group B (50% of users):* “Create Post” button is only on the **profile page**, where the user’s past reviews appear.  
