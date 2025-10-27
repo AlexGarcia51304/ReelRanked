@@ -81,3 +81,35 @@ Data will be analyzed after 1–2 weeks to determine which version performs bett
 
 ---
 
+***A/B Test #3*** :
+**See Review Functionality - Button or Whole Card**
+
+**User Story Number**
+
+US4 - Golden Path
+
+**Metrics**
+
+*Engagement:* How many users are interacting with reviews in general
+*CTR (Click-Through Rate):* How many users are opening a review to see the details
+
+**Hypothesis**
+- Users may not interact with created reviews in any meaningful way if opening them to see the details is too cumbersome.
+- This may be caused by having a dedicated button to open a review. It could be too small or cumbersome to interact with. It may be more intuitive and in-line with other apps to be able to tap anywhere on the review card to open it.
+
+**Experiment Setup**
+
+We’ll use Firebase Remote Config and Firebase A/B Testing to test two versions of the ReelRanker app.
+- *Group A (50% of users):* "See Review" button
+- *Group B (50% of users):* Tap review card
+
+**Variations**  
+*Variation A – See Review Button*
+- “See Review” button displayed on each review card.  
+- Only tapping on that button will open review details.
+- Expected to be cumbersome to use and reduce engagement and CTR.
+
+*Variation B – Tap Review Card*  
+- Can tap anywhere on the review card to open review details.
+- Expected to be more intuitive to use and increase engagement and CTR.
+- Reduces clutter on each review card.
