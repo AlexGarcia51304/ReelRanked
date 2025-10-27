@@ -21,6 +21,7 @@
 We’ll use Firebase Remote Config and Firebase A/B Testing to test two versions of the ReelRanker app.
 - *Group A (50% of users):* “Create Post” button is in the **navigation bar**, next to Feed, Search, and Profile.  
 - *Group B (50% of users):* “Create Post” button is only on the **profile page**, where the user’s past reviews appear.  
+
 We’ll track the results using Firebase Analytics and the metrics listed above. The experiment will run for two weeks, and we’ll compare how many users create posts and return to the app after posting.
 
 **Variations**  
@@ -32,5 +33,6 @@ We’ll track the results using Firebase Analytics and the metrics listed above.
 *Variation B – Profile Button*  
 - “Create Post” button shown only on the profile page.  
 - Takes an extra step to reach but keeps the main screen cleaner.  
+
 After the test, we’ll review which version performs better and use that layout in the final app.
 
