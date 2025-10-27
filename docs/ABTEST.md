@@ -28,6 +28,7 @@ We’ll track the results using Firebase Analytics and the metrics listed above.
 - “+ Post” button shown in the main navigation bar.  
 - Always visible while users browse.  
 - Expected to increase posting and engagement.  
+
 *Variation B – Profile Button*  
 - “Create Post” button shown only on the profile page.  
 - Takes an extra step to reach but keeps the main screen cleaner.  
