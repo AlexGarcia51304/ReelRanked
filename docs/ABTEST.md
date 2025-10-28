@@ -113,3 +113,35 @@ We’ll use Firebase Remote Config and Firebase A/B Testing to test two versions
 - Can tap anywhere on the review card to open review details.
 - Expected to be more intuitive to use and increase engagement and CTR.
 - Reduces clutter on each review card.
+
+***A/B Test #4*** :
+**Number of Reviews completed**
+
+**User Story Number**
+
+US4 - Golden Path
+
+**Metrics**
+
+*Task Success:* How many users are creating reviews in general
+*CTR (Click-Through Rate):* How many users are making multiple reviews/making reviews quickly
+
+**Hypothesis**
+- Users may not create many reviews if the process of creating a review is too complicated or unintuitive.
+- This may be caused by certain buttons not having distinct labels. They could be misleading or vague. It could be a good idea to make their labels clear and to the point.
+**Experiment Setup**
+
+We’ll use Firebase Remote Config and Firebase A/B Testing to test two versions of the ReelRanker app.
+- *Group A (50% of users):* Standard issue labels
+- *Group B (50% of users):* More descriptive labels
+
+**Variations**  
+*Variation A – Standard issue labels*
+- All in-app buttons with normal labels.  
+- Figuring out which button does what essential to successful app progression.
+- Expected to make review creation slightly more complicated and possibly unintuitive.
+
+*Variation B – More descriptive labels*  
+- All in-app buttons have slightly longer labels and/or images attached to communicate use.
+- Expected to be more intuitive to use and increase engagement and CTR.
+- Improves how easy it is to create reviews.
