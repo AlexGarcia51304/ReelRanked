@@ -1,37 +1,41 @@
-## A/B Test #1: **Post Button Placement – Nav Bar vs. Profile Page**
+# A/B Test #1: Add Review Button Text – “Add Review” vs. “Write a Review” (Alex)
 
-**User Story Number**
-- US4 – Golden Path
+## User Story Number  
+**US4 – Golden Path**
 
-**Metrics**
-- *Adoption:* How many users post their first review.  
-- *Engagement:* Number of posts created per active user.  
-- *Retention:* How many users come back within a week after posting.  
-- *CTR (Click-Through Rate):* How often users click the “Create Post” button compared to how many open the app.  
+## Metrics  
+- **Adoption:** How many users submit their first review.  
+- **Engagement:** Number of reviews created per active user.  
+- **Retention:** How many users return within a week after posting a review.  
+- **CTR (Click-Through Rate):** How often users tap the “Add Review” button compared to how many open the app.
 
-**Hypothesis**  
-- If the “Create Post” button is easier to find in the navigation bar, more users will post reviews and stay active on the app. We think this version will improve engagement and retention because it makes posting faster and more obvious.
-- Right now, if the “Create Post” button is only on the profile page, users might not notice it or take the extra step to post. This could make the app feel less interactive. By testing both placements, we can find which version helps users post more easily and increases the overall activity on ReelRanker.
+## Hypothesis  
+If the button text feels more inviting or action-oriented, more users will start writing reviews. We think **“Write a Review”** may encourage higher engagement because it sounds more personal and creative than **“Add Review.”**
 
-**Experiment Setup**
+Currently, the button says **“Add Review,”** which might feel more transactional or less engaging. By testing both phrases, we can see which version drives more user interaction and leads to more reviews being created.
 
-We’ll use Firebase Remote Config and Firebase A/B Testing to test two versions of the ReelRanker app.
-- *Group A (50% of users):* “Create Post” button is in the **navigation bar**, next to Feed, Search, and Profile.  
-- *Group B (50% of users):* “Create Post” button is only on the **profile page**, where the user’s past reviews appear.  
+## Experiment Setup  
+We’ll use **Firebase Remote Config** and **Firebase A/B Testing** to test two text variations of the **“Add Review”** button in the FlutterFlow app.
 
-We’ll track the results using Firebase Analytics and the metrics listed above. The experiment will run for two weeks, and we’ll compare how many users create posts and return to the app after posting.
+- **Group A (50% of users):** Button text – “Add Review”  
+- **Group B (50% of users):** Button text – “Write a Review”  
 
-**Variations**  
-*Variation A – Nav Bar Button*
-- “+ Post” button shown in the main navigation bar.  
-- Always visible while users browse.  
-- Expected to increase posting and engagement.  
+We’ll track the results using **Firebase Analytics** and the metrics listed above.  
+The test will run for **two weeks**, and we’ll compare which button text leads to higher click-through and review submission rates.
 
-*Variation B – Profile Button*  
-- “Create Post” button shown only on the profile page.  
-- Takes an extra step to reach but keeps the main screen cleaner.  
+## Variations  
+### Variation A – “Add Review”  
+- Current version.  
+- Clear and simple, but possibly less engaging.
 
-After the test, we’ll review which version performs better and use that layout in the final app.
+### Variation B – “Write a Review”  
+- More expressive and personal phrasing.  
+- Expected to increase review creation and retention.
+
+---
+
+After the test, we’ll analyze which version performs better and set that button text as the default in the app.
+
 
 ---
 
