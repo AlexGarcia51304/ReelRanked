@@ -40,6 +40,7 @@ void main() async {
     ));
     await GoogleFonts.pendingFonts();
 
+    await tester.pumpAndSettle(const Duration(milliseconds: 1000));
     await tester.enterText(
         find.byKey(const ValueKey('emailAddress_yblq')), 'alexg@m.com');
     await tester.enterText(
@@ -47,6 +48,32 @@ void main() async {
     await tester.tap(find.byKey(const ValueKey('Button_ov72')));
     await tester.pumpAndSettle(const Duration(milliseconds: 15000));
     expect(find.text('Followers'), findsOneWidget);
+  });
+
+  testWidgets('US4 Golden Path', (WidgetTester tester) async {
+    _overrideOnError();
+    await FirebaseAuth.instance.signInWithEmailAndPassword(
+        email: 'testemail@gmail.com', password: 'Testpw123');
+    await tester.pumpWidget(ChangeNotifierProvider(
+      create: (context) => FFAppState(),
+      child: const MyApp(),
+    ));
+    await GoogleFonts.pendingFonts();
+
+    await tester.pumpAndSettle(const Duration(milliseconds: 3000));
+    await tester.tap(find.byIcon(Icons.add));
+    await tester.pumpAndSettle(const Duration(milliseconds: 1000));
+    await tester.enterText(
+        find.byKey(const ValueKey('mediaTitle_fbb3')), 'The Batman');
+    FocusManager.instance.primaryFocus?.unfocus();
+    await tester.pumpAndSettle(const Duration(milliseconds: 1000));
+    await tester.enterText(
+        find.byKey(const ValueKey('reviewDetails_h5lu')), 'Auto test');
+    FocusManager.instance.primaryFocus?.unfocus();
+    await tester.pumpAndSettle(const Duration(milliseconds: 1000));
+    await tester.tap(find.byKey(const ValueKey('addReview_d5e9')));
+    await tester.pumpAndSettle(const Duration(milliseconds: 1000));
+    await tester.tap(find.byKey(const ValueKey('Button_uc5g')));
   });
 }
 

@@ -117,6 +117,7 @@ class _AddReviewWidgetState extends State<AddReviewWidget> {
                                 Container(
                                   width: double.infinity,
                                   child: TextFormField(
+                                    key: ValueKey('mediaTitle_fbb3'),
                                     controller: _model.mediaTitleTextController,
                                     focusNode: _model.mediaTitleFocusNode,
                                     autofocus: false,
@@ -404,6 +405,7 @@ class _AddReviewWidgetState extends State<AddReviewWidget> {
                                 Container(
                                   width: double.infinity,
                                   child: TextFormField(
+                                    key: ValueKey('reviewDetails_h5lu'),
                                     controller:
                                         _model.reviewDetailsTextController,
                                     focusNode: _model.reviewDetailsFocusNode,
@@ -570,6 +572,7 @@ class _AddReviewWidgetState extends State<AddReviewWidget> {
                                       FlutterFlowTheme.of(context).warning,
                                 ),
                                 FFButtonWidget(
+                                  key: ValueKey('Button_uc5g'),
                                   onPressed: () async {
                                     logFirebaseEvent(
                                         'ADD_REVIEW_PAGE_Button_8nqhtth4_ON_TAP');
