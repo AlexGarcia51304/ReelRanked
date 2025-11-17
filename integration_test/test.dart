@@ -45,7 +45,7 @@ void main() async {
     await tester.enterText(
         find.byKey(const ValueKey('password_6f48')), 'garcia13');
     await tester.tap(find.byKey(const ValueKey('Button_ov72')));
-    await tester.pumpAndSettle(const Duration(milliseconds: 3000));
+    await tester.pumpAndSettle();
     expect(find.text('Followers'), findsOneWidget);
   });
 }
