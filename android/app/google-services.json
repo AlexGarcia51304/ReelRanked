@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "377698117101",
+    "project_id": "reelranker-869c7",
+    "storage_bucket": "reelranker-869c7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377698117101:android:11b5e2b9e21bd6557a33e4",
+        "android_client_info": {
+          "package_name": "com.mycompany.reelranker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_z45S2p2hv9mBXprdrjrgILQ6xMYpNqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377698117101:android:aec20c1bd8507fe67a33e4",
+        "android_client_info": {
+          "package_name": "com.uricsc305.reelranker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_z45S2p2hv9mBXprdrjrgILQ6xMYpNqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
