@@ -47,7 +47,7 @@ void main() async {
         find.byKey(const ValueKey('password_6f48')), 'garcia13');
     await tester.tap(find.byKey(const ValueKey('Button_ov72')));
     await tester.pumpAndSettle(const Duration(milliseconds: 15000));
-    expect(find.text('Followers'), findsOneWidget);
+    expect(find.text('Reviews'), findsOneWidget);
   });
 
   testWidgets('US4 Golden Path', (WidgetTester tester) async {
